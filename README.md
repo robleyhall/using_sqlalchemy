@@ -1,6 +1,7 @@
 # using_sqlalchemy
 example of how to using sqlalchemy to create two linked tables
 
+# setup
 
 ## install required packages
 1. postgres
@@ -25,3 +26,21 @@ createdb ic4v
 create user ic4vuser --password
 
 (at password prompt enter password `ibm`)
+
+# Using the samples
+
+## create the tables
+
+python create_tables.py
+
+## insert some records
+
+python insert_records.py
+
+## list the records
+
+python list_records.py
+
+## drop the tables to cleanup
+
+python drop_tables.py
