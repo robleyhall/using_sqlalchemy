@@ -1,6 +1,8 @@
 # using_sqlalchemy
 example of how to using sqlalchemy to create two linked tables
 
+assumes macos (hence brew) but that is the only piece of this that should be mac-specific
+
 # setup
 
 ## install required packages
